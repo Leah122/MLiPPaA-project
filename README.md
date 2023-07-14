@@ -10,5 +10,10 @@ hits: event_id,hit_x_0,hit_y_0,track_id_0,hit_x_1,hit_y_1,track_id_1,hit_x_2,hit
 
 If 3d data is generated it will have an addtional z coordinate in the hits and the track parameters will have two parameters seperated by a semicolon.
 
-Training can be done in the notebook, which has instructions within it. 
+Training can be done in the notebook, which has instructions within it. The filestructure for the notebook should look like this:
 
+notebook.ipynb
+data
+  parameters.txt
+  hits.txt
+model
