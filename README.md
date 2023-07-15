@@ -1,7 +1,7 @@
 # MLiPPaA-project
-The data can be generated with the file data_generation.py the usage seen below. If no options are given the default will generate 50.000 events with 2 dimensions. 
+The data can be generated with the file generate_data.py the usage seen below. If no options are given the default will generate 50.000 events with 2 dimensions. 
 
-python data_generation.py -d [nr_dimensions] -s [nr_samples] 
+python generate_data.py -d [nr_dimensions] -s [nr_samples] 
 
 This will output 2 txt files, hits.txt and parameters.txt, containing the hits and parameters respectively as a comma seperated table in the following format:
 
